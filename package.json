@@ -1,0 +1,31 @@
+{
+  "name": "mqtt-dispatcher",
+  "version": "1.0.0",
+  "description": "Fancy event dispatcher that integrates with MQTT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/mqtt-dispatcher.git"
+  },
+  "keywords": [
+    "mqtt",
+    "dispatcher",
+    "events",
+    "reactive"
+  ],
+  "author": "rangermauve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/mqtt-dispatcher/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/mqtt-dispatcher#readme",
+  "dependencies": {
+    "is-object": "^1.0.1",
+    "is-string": "^1.0.4",
+    "mqtt": "^1.3.5",
+    "mqtt-emitter": "^1.2.0"
+  }
+}
